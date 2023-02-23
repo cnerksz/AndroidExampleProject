@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Hesaplama "
+    android:icon="@drawable/ic_baseline_calculate_24"
+    android:id="@+id/hesap"    />
+    <item android:title="Müşterilerim"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:id="@+id/musteri"/>
+    <item android:title="Alınan-Verilen"
+        android:id="@+id/alinan"
+        android:icon="@drawable/ic_baseline_menu_book_24" />
+    <item android:title="Bakiyem"
+        android:id="@+id/bakiye"
+        android:icon="@drawable/ic_baseline_attach_money_24" />
+</menu>

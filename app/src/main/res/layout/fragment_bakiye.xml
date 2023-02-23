@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BakiyeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="375dp"
+        android:text="Günlük Rapor Tarihi : Seçin"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="375dp" />
+
+    <TextView
+
+    android:layout_width="200dp"
+    android:layout_height="50dp"
+    android:text="Günlük Ciro :"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    />
+    <TextView
+        android:id="@+id/günlükc"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_marginStart="210dp"
+        />
+
+    <TextView
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Günlük Masraf :"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="60dp"
+
+        />
+    <TextView
+        android:id="@+id/günlükm"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="210dp"
+
+
+        />
+    <TextView
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:text="Günlük Kazanç :"
+        android:textStyle="bold"
+
+        android:layout_marginTop="120dp"
+
+
+
+        />
+    <TextView
+        android:id="@+id/günlükb"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="210dp"
+
+
+        />
+    <TextView
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Aylık Ciro :"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="170dp"
+        />
+    <TextView
+        android:id="@+id/aylıkc"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="210dp"
+        />
+
+    <TextView
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Aylık Masraf :"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="230dp"
+
+        />
+    <TextView
+        android:id="@+id/aylıkm"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="210dp"
+
+
+        />
+    <TextView
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Mevcut Bakiye :"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="290dp"
+
+
+
+        />
+    <TextView
+        android:id="@+id/aylıkb"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="210dp"
+
+
+        />
+    <Button
+        android:id="@+id/gunlukpdf"
+        android:text="Günlük Rapor"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="100dp"
+        />
+
+
+</FrameLayout>

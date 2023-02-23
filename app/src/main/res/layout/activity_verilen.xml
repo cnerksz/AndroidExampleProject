@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3,4,5"
+    tools:context=".Verilen">
+
+    <TextView
+        android:layout_width="450dp"
+        android:layout_height="30dp"
+        android:text="Verilen            Adet               Fiyat                 Gün"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/verilenTablo"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:choiceMode="multipleChoice" />
+    ></RelativeLayout>
